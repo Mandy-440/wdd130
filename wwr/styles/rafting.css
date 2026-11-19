@@ -141,3 +141,42 @@ footer {
     text-align: center;
     padding: 16px;
 }
+
+header nav a:hover {
+    color: var(--secondary-color);
+}
+
+.adventure {
+    text-align: center;
+    padding: 20px;
+}
+
+.adventure h2 {
+    margin-bottom: 20px;
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.adventure-gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+
+.adventure-gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.adventure-gallery figcaption {
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+}
